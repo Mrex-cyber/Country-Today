@@ -1,0 +1,22 @@
+<div class="header-container">
+  <form>
+    <div class="year-variant" *ngFor="let y of years">
+      <input name="year" type="radio" (change)="onYearSelectionChange(y)">
+      <label>{{y}}</label>
+    </div>
+  </form>
+</div>
+
+<div class="holidays-container">
+  <mat-card class="holiday-card" appearance="outlined" *ngFor="let h of holidays">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{h.name}}</mat-card-title>
+        <mat-card-subtitle>{{h.date}}</mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Local name: {{h.localName}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

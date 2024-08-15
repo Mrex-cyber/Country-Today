@@ -1,27 +1,64 @@
-# CountryToday
+# Country Today
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Project Name** is a [brief description of your application]. This application [describe the main purpose and functionality]. It's built using [Angular](https://angular.io/), a platform and framework for building single-page client applications using HTML and TypeScript.
 
-## Code scaffolding
+## Table of Contents
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Features](#features)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Building the Application](#building-the-application)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Feature 1]: Brief description
+- [Feature 2]: Brief description
+- [Feature 3]: Brief description
 
-## Running unit tests
+## Architecture
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The project follows a standard Angular architecture with a focus on modularity and reusability. Below is an overview of the main directories:
 
-## Running end-to-end tests
+- **src/app**: Contains all the Angular components, services, and modules.
+  - **components**: Angular components used in the application.
+  - **services**: Shared services for handling data and business logic.
+  - **models**: TypeScript interfaces and models.
+  - **shared**: Shared modules, components, and utilities.
+  - **pipes**: Custom Angular pipes.
+  
+- **assets**: Static files like images and stylesheets.
+- **environments**: Environment-specific configurations.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Installation
 
-## Further help
+To get started with the project, follow the instructions below.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16.x or later)
+- [npm](https://www.npmjs.com/) (version 7.x or later)
+- [Angular CLI](https://cli.angular.io/) (version 14.x or later)
+
+### Steps
+
+1. **Clone the repository**:
+
+   ```bash
+ git clone https://github.com/yourusername/your-repo.git
+ cd your-repo
+2. **Run the following command in the project root to install all necessary packages**:
+   npm install
+3.1. **Start developer server**:
+   ng serve
+3.2. **Start production version**:
+   ng serve -c=production

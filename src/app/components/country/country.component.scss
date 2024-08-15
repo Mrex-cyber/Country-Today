@@ -1,0 +1,38 @@
+.header-container {
+  display: flex;
+  width: 100%;
+  margin: 50px;
+  flex-direction: row;
+  justify-content: left;
+  gap: 15px;
+  flex-wrap: wrap;
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 20%;
+
+    .year-variant {
+      display: block;
+      width: 30%;
+    }
+  }
+}
+
+.holidays-container {
+  display: flex;
+  width: 100%;
+  margin: 20px 0px;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+
+  .holiday-card {
+    width: 25%;
+  }
+}
