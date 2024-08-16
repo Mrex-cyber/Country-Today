@@ -2,26 +2,12 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-## Overview
-
-**Project Name** is a [brief description of your application]. This application [describe the main purpose and functionality]. It's built using [Angular](https://angular.io/), a platform and framework for building single-page client applications using HTML and TypeScript.
-
 ## Table of Contents
 
-- [Features](#features)
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [Building the Application](#building-the-application)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-
-- [Feature 1]: Brief description
-- [Feature 2]: Brief description
-- [Feature 3]: Brief description
 
 ## Architecture
 
@@ -54,7 +40,7 @@ Ensure you have the following installed:
 1. **Clone the repository**:
 
    ```bash
- git clone https://github.com/yourusername/your-repo.git
+ git clone https://github.com/Mrex-cyber/Country-Today.git
  cd your-repo
 2. **Run the following command in the project root to install all necessary packages**:
    npm install
