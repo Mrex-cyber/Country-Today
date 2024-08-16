@@ -38,13 +38,18 @@ Ensure you have the following installed:
 ### Steps
 
 1. **Clone the repository**:
-
-   ```bash
- git clone https://github.com/Mrex-cyber/Country-Today.git
- cd your-repo
+   ```
+   bash
+   git clone https://github.com/Mrex-cyber/Country-Today.git
+   cd your-repo
+   ```
 2. **Run the following command in the project root to install all necessary packages**:
    npm install
 3.1. **Start developer server**:
-   ng serve
+    ```
+    ng serve
+    ```
 3.2. **Start production version**:
-   ng serve -c=production
+    ```
+    ng serve -c=production
+     ```
